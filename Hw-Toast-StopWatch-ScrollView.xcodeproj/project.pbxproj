@@ -9,10 +9,11 @@
 /* Begin PBXBuildFile section */
 		9AB317FF1BFD54170065BE0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB317FE1BFD54170065BE0B /* main.m */; };
 		9AB318021BFD54170065BE0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB318011BFD54170065BE0B /* AppDelegate.m */; };
-		9AB318051BFD54170065BE0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB318041BFD54170065BE0B /* ViewController.m */; };
 		9AB318081BFD54170065BE0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AB318061BFD54170065BE0B /* Main.storyboard */; };
 		9AB3180A1BFD54170065BE0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9AB318091BFD54170065BE0B /* Assets.xcassets */; };
 		9AB3180D1BFD54170065BE0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AB3180B1BFD54170065BE0B /* LaunchScreen.storyboard */; };
+		9AB318161BFD66020065BE0B /* ToastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB318151BFD66020065BE0B /* ToastViewController.m */; };
+		9AB318181BFD677F0065BE0B /* toast-msg@20x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AB318171BFD677F0065BE0B /* toast-msg@20x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +21,13 @@
 		9AB317FE1BFD54170065BE0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9AB318001BFD54170065BE0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9AB318011BFD54170065BE0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9AB318031BFD54170065BE0B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9AB318041BFD54170065BE0B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9AB318071BFD54170065BE0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9AB318091BFD54170065BE0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9AB3180C1BFD54170065BE0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9AB3180E1BFD54170065BE0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AB318141BFD66020065BE0B /* ToastViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToastViewController.h; sourceTree = "<group>"; };
+		9AB318151BFD66020065BE0B /* ToastViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToastViewController.m; sourceTree = "<group>"; };
+		9AB318171BFD677F0065BE0B /* toast-msg@20x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "toast-msg@20x.png"; path = "Resource/toast-msg@20x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +60,11 @@
 		9AB317FC1BFD54170065BE0B /* Hw-Toast-StopWatch-ScrollView */ = {
 			isa = PBXGroup;
 			children = (
+				9AB318191BFD67850065BE0B /* Resource */,
 				9AB318001BFD54170065BE0B /* AppDelegate.h */,
 				9AB318011BFD54170065BE0B /* AppDelegate.m */,
-				9AB318031BFD54170065BE0B /* ViewController.h */,
-				9AB318041BFD54170065BE0B /* ViewController.m */,
+				9AB318141BFD66020065BE0B /* ToastViewController.h */,
+				9AB318151BFD66020065BE0B /* ToastViewController.m */,
 				9AB318061BFD54170065BE0B /* Main.storyboard */,
 				9AB318091BFD54170065BE0B /* Assets.xcassets */,
 				9AB3180B1BFD54170065BE0B /* LaunchScreen.storyboard */,
@@ -77,6 +80,14 @@
 				9AB317FE1BFD54170065BE0B /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9AB318191BFD67850065BE0B /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				9AB318171BFD677F0065BE0B /* toast-msg@20x.png */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 				9AB3180D1BFD54170065BE0B /* LaunchScreen.storyboard in Resources */,
 				9AB3180A1BFD54170065BE0B /* Assets.xcassets in Resources */,
 				9AB318081BFD54170065BE0B /* Main.storyboard in Resources */,
+				9AB318181BFD677F0065BE0B /* toast-msg@20x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,8 +161,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9AB318051BFD54170065BE0B /* ViewController.m in Sources */,
 				9AB318021BFD54170065BE0B /* AppDelegate.m in Sources */,
+				9AB318161BFD66020065BE0B /* ToastViewController.m in Sources */,
 				9AB317FF1BFD54170065BE0B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

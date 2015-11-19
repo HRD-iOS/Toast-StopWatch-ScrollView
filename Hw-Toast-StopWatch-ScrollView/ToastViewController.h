@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ToastViewController.h
 //  Hw-Toast-StopWatch-ScrollView
 //
 //  Created by Yin Kokpheng on 11/19/15.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ToastViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UILabel *labelMessage;
 
 @end
-
