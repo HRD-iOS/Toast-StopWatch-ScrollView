@@ -14,6 +14,7 @@
 		9AB3180D1BFD54170065BE0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AB3180B1BFD54170065BE0B /* LaunchScreen.storyboard */; };
 		9AB318161BFD66020065BE0B /* ToastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB318151BFD66020065BE0B /* ToastViewController.m */; };
 		9AB318181BFD677F0065BE0B /* toast-msg@20x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AB318171BFD677F0065BE0B /* toast-msg@20x.png */; };
+		9AB3181C1BFD6B450065BE0B /* ScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB3181B1BFD6B450065BE0B /* ScrollViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		9AB318141BFD66020065BE0B /* ToastViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToastViewController.h; sourceTree = "<group>"; };
 		9AB318151BFD66020065BE0B /* ToastViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToastViewController.m; sourceTree = "<group>"; };
 		9AB318171BFD677F0065BE0B /* toast-msg@20x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "toast-msg@20x.png"; path = "Resource/toast-msg@20x.png"; sourceTree = "<group>"; };
+		9AB3181A1BFD6B450065BE0B /* ScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollViewController.h; sourceTree = "<group>"; };
+		9AB3181B1BFD6B450065BE0B /* ScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 				9AB318191BFD67850065BE0B /* Resource */,
 				9AB318001BFD54170065BE0B /* AppDelegate.h */,
 				9AB318011BFD54170065BE0B /* AppDelegate.m */,
+				9AB3181A1BFD6B450065BE0B /* ScrollViewController.h */,
+				9AB3181B1BFD6B450065BE0B /* ScrollViewController.m */,
 				9AB318141BFD66020065BE0B /* ToastViewController.h */,
 				9AB318151BFD66020065BE0B /* ToastViewController.m */,
 				9AB318061BFD54170065BE0B /* Main.storyboard */,
@@ -164,6 +169,7 @@
 				9AB318021BFD54170065BE0B /* AppDelegate.m in Sources */,
 				9AB318161BFD66020065BE0B /* ToastViewController.m in Sources */,
 				9AB317FF1BFD54170065BE0B /* main.m in Sources */,
+				9AB3181C1BFD6B450065BE0B /* ScrollViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
