@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19BF70F11C0148DB0063A352 /* StopWatchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 19BF70F01C0148DB0063A352 /* StopWatchViewController.m */; };
+		19BF70F31C0158850063A352 /* stopWatch.png in Resources */ = {isa = PBXBuildFile; fileRef = 19BF70F21C0158850063A352 /* stopWatch.png */; };
 		9AB317FF1BFD54170065BE0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB317FE1BFD54170065BE0B /* main.m */; };
 		9AB318021BFD54170065BE0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AB318011BFD54170065BE0B /* AppDelegate.m */; };
 		9AB318081BFD54170065BE0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AB318061BFD54170065BE0B /* Main.storyboard */; };
@@ -18,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19BF70EF1C0148DB0063A352 /* StopWatchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopWatchViewController.h; sourceTree = "<group>"; };
+		19BF70F01C0148DB0063A352 /* StopWatchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StopWatchViewController.m; sourceTree = "<group>"; };
+		19BF70F21C0158850063A352 /* stopWatch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stopWatch.png; path = Resource/stopWatch.png; sourceTree = "<group>"; };
 		9AB317FA1BFD54170065BE0B /* Hw-Toast-StopWatch-ScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hw-Toast-StopWatch-ScrollView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AB317FE1BFD54170065BE0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9AB318001BFD54170065BE0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,6 +73,8 @@
 				9AB318011BFD54170065BE0B /* AppDelegate.m */,
 				9AB3181A1BFD6B450065BE0B /* ScrollViewController.h */,
 				9AB3181B1BFD6B450065BE0B /* ScrollViewController.m */,
+				19BF70EF1C0148DB0063A352 /* StopWatchViewController.h */,
+				19BF70F01C0148DB0063A352 /* StopWatchViewController.m */,
 				9AB318141BFD66020065BE0B /* ToastViewController.h */,
 				9AB318151BFD66020065BE0B /* ToastViewController.m */,
 				9AB318061BFD54170065BE0B /* Main.storyboard */,
@@ -90,6 +97,7 @@
 		9AB318191BFD67850065BE0B /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				19BF70F21C0158850063A352 /* stopWatch.png */,
 				9AB318171BFD677F0065BE0B /* toast-msg@20x.png */,
 			);
 			name = Resource;
@@ -156,6 +164,7 @@
 				9AB3180A1BFD54170065BE0B /* Assets.xcassets in Resources */,
 				9AB318081BFD54170065BE0B /* Main.storyboard in Resources */,
 				9AB318181BFD677F0065BE0B /* toast-msg@20x.png in Resources */,
+				19BF70F31C0158850063A352 /* stopWatch.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +178,7 @@
 				9AB318021BFD54170065BE0B /* AppDelegate.m in Sources */,
 				9AB318161BFD66020065BE0B /* ToastViewController.m in Sources */,
 				9AB317FF1BFD54170065BE0B /* main.m in Sources */,
+				19BF70F11C0148DB0063A352 /* StopWatchViewController.m in Sources */,
 				9AB3181C1BFD6B450065BE0B /* ScrollViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -316,6 +326,7 @@
 				9AB318131BFD54170065BE0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

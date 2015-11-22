@@ -16,31 +16,31 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Listen for keyboard appearances and disappearances
-    [[NSNotificationCenter defaultCenter] addObserver:self
-                                             selector:@selector(keyboardDidShow:)
-                                                 name:UIKeyboardDidShowNotification
-                                               object:nil];
-    
-    [[NSNotificationCenter defaultCenter] addObserver:self
-                                             selector:@selector(keyboardDidHide:)
-                                                 name:UIKeyboardDidHideNotification
-                                               object:nil];
+//    // Listen for keyboard appearances and disappearances
+//    [[NSNotificationCenter defaultCenter] addObserver:self
+//                                             selector:@selector(keyboardDidShow:)
+//                                                 name:UIKeyboardDidShowNotification
+//                                               object:nil];
+//    
+//    [[NSNotificationCenter defaultCenter] addObserver:self
+//                                             selector:@selector(keyboardDidHide:)
+//                                                 name:UIKeyboardDidHideNotification
+//                                               object:nil];
     [self.scrollView setScrollEnabled:true];
-    [self.scrollView setContentSize:CGSizeMake(383, 900)];
+    [self.scrollView setContentSize:CGSizeMake(383, 1500)];
     
 }
-
-- (void)keyboardDidShow: (NSNotification *) notif{
-    [self.scrollView setScrollEnabled:true];
-    [self.scrollView setContentOffset:CGPointMake(0, 200) animated:YES] ;
-    [self.scrollView setContentSize:CGSizeMake(383, 900)];
-}
-
-- (void)keyboardDidHide: (NSNotification *) notif{
-    [self.scrollView setScrollEnabled:false];
-    [self.scrollView setContentSize:CGSizeMake(383, 598)];
-}
+//
+//- (void)keyboardDidShow: (NSNotification *) notif{
+//    [self.scrollView setScrollEnabled:true];
+//    [self.scrollView setContentOffset:CGPointMake(0, 200) animated:YES] ;
+//    [self.scrollView setContentSize:CGSizeMake(383, 900)];
+//}
+//
+//- (void)keyboardDidHide: (NSNotification *) notif{
+//    [self.scrollView setScrollEnabled:false];
+//    [self.scrollView setContentSize:CGSizeMake(383, 598)];
+//}
 
 
 - (void)didReceiveMemoryWarning {
