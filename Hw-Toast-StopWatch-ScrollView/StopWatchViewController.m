@@ -36,6 +36,7 @@ NSMutableArray *timeArray;
 - (IBAction)startButtonAction:(id)sender {
     [self makeStartAppear:false];
     timer = [NSTimer scheduledTimerWithTimeInterval:0.01 target:self selector:@selector(updateTime) userInfo:nil repeats:true];
+    [[NSRunLoop mainRunLoop] addTimer:timer forMode:NSRunLoopCommonModes];
     startTime = [NSDate timeIntervalSinceReferenceDate];
     
     [timeArray removeAllObjects];
